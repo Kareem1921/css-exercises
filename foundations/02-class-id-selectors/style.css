@@ -1,0 +1,21 @@
+/*styles.css*/
+
+.odd, .special-odd{
+    background-color: #ff4747;
+    font-family: Verdana, DejaVuSans, sans-serif;
+}
+
+#second{
+    color: #4a4aff;
+    font-size: 36px;
+}
+
+.special-odd{
+    font-size: 24px;
+}
+
+#fourth{
+    background-color: #4aff4a;
+    font-weight: bold;
+    font-size: 24px;
+}
