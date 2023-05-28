@@ -20,7 +20,43 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /*my code*/
+  padding: 16px;
 }
+
+/*my code*/
+.top{
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+/*my code*/
+.hc{
+  align-self: baseline;
+}
+
+/*my code*/
+.htb{
+  display: flex;
+  align-items: center;
+}
+
+.tb{
+  margin-left: 56px;
+}
+
+.buttons{
+  padding-top: 16px;
+}
+
+
+/*my code*/
+.header{
+  font-weight: bold;
+  font-size: 18px;
+}
+
 
 .icon {
   color: royalblue;
@@ -33,6 +69,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  /*my code*/
+  /* margin-bottom: 200px; */
 }
 
 .close-button {
@@ -48,6 +87,8 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  /*my code*/
+  margin-left: auto;
 }
 
 button {
