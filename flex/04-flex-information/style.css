@@ -7,10 +7,39 @@ img {
   height: 100px;
 }
 
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  /*my code*/
+  margin-bottom: 32px;
 }
+
+/*my code*/
+.no-footer{
+  display:flex;
+  justify-content: center;
+}
+
+/*my code*/
+.pair{
+  display:flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+} 
+
+/*my code*/
+.image-pairs{
+  display:flex;
+  gap:52px;
+} 
+
+/*my code*/
+.text{
+  text-align: center;
+} 
+
 
 /* do not edit this footer */
 .footer {
