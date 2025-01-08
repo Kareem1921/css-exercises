@@ -8,6 +8,18 @@ body, html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+
+  /* my code */
+  display: grid;
+  grid-template-columns: 300px 900px;
+  grid-template-rows: 100px 100px 500px 100px;
+  grid-gap: 15px;
+
+  grid-template-areas: 
+  "header header"
+  "sidebar nav"
+  "sidebar article"
+  "footer footer"
 }
 
 .container div {
@@ -21,18 +33,30 @@ body, html {
 
 .header {
   background-color: #FFDE22;
+
+  /* my code */
+  grid-area: header;
 }
 
 .sidebar {
   background-color: #FF7755;
+
+  /* my code */
+  grid-area: sidebar;
 }
 
 .nav {
   background-color: #00DDFF;
+
+  /* my code */
+  grid-area: nav;
 }
 
 .article {
   background-color: #bccbde;
+
+  /* my code */
+  grid-area: article;
 }
 
 .article p {
@@ -44,4 +68,7 @@ body, html {
 
 .footer {
   background-color: #393f4d;
+
+  /* my code */
+  grid-area: footer;
 }
